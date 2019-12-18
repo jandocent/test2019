@@ -1,0 +1,28 @@
+body {
+  margin: 2rem;
+  background: #357970;
+}
+
+#board {
+ width: 90%;
+ background-color: #357970;
+ border: 3px solid #fff;
+ margin: 10px;
+}
+
+.blok {
+ box-sizing: border-box;
+ width: calc(100% / 15);
+ height: 60px;
+ background-color: green;
+ border: 2px solid #fff;
+ display:inline-flex;
+}
+
+.blok.rood {
+ background-color: red;
+}
+
+.blok.geel {
+ background-color: yellow;
+}
